@@ -2,6 +2,9 @@ import player.Player
 import player.PlayersOneTwo
 
 fun main(args: Array<String>) {
+    println("======================================")
+    println("GAME SUIT TERMINAL VERSION")
+    println("======================================")
     //object player 1 dari class player
     (PlayersOneTwo().playerOne())
     val player1 = readLine()?.toLowerCase()
