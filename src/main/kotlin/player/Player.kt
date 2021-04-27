@@ -13,3 +13,4 @@ class Player {
         val player2 = readLine()?.toLowerCase()
     }
 }
+
