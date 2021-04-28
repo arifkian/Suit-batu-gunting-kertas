@@ -8,7 +8,7 @@ class PlayersOneTwo(): Player() {
 
     override fun playerTwo(): String {
         //    Menangkap pilihan player 1
-        return print("1. Masukan Pemain 2 : ").toString()
+        return print("2. Masukan Pemain 2 : ").toString()
     }
 
 }
