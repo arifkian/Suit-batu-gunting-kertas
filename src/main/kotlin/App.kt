@@ -6,7 +6,7 @@ class App {
         fun main(Args: Array<String>) {
             val app = App()
             app.printHeader()
-            app.gameMain()
+            app.startGame()
 
         }
     }
@@ -17,7 +17,7 @@ class App {
         println("======================================")
     }
 
-    fun gameMain(){
+    fun startGame(){
         //object player 1 dari class player
         (PlayersOneTwo().playerOne())
         val player1 = readLine()?.toLowerCase()
