@@ -5,13 +5,13 @@ class App {
         @JvmStatic
         fun main(Args: Array<String>) {
             val app = App()
-            app.header()
+            app.printHeader()
             app.gameMain()
 
         }
     }
 
-    fun header(){
+    fun printHeader(){
         println("======================================")
         println("GAME SUIT TERMINAL VERSION")
         println("======================================")
